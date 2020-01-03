@@ -1,33 +1,5 @@
 @charset "utf-8";
 
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Open Sans Regular'),url('./github/400.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: normal;
-  src: local('Open Sans Italic'),url('./github/400i.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: bold;
-  src: local('Open Sans Bold'),url('./github/700.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: bold;
-  src: local('Open Sans Bold Italic'),url('./github/700i.woff') format('woff');
-}
-
 :root {
   --active-file-bg-color: #dadada;
   --active-file-bg-color: rgba(32, 43, 51, 0.63);
@@ -319,9 +291,10 @@ mark {
 }
 
 /* 代码片断 */
-pre, code, pre tt {
+/* pre, code, pre tt {
   font-family: "Open Sans","Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+*/
 
 #write .md-fences {
   border: 1px solid #ddd;
